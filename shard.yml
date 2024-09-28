@@ -10,4 +10,8 @@ dependencies:
 
 crystal: '>= 1.0.0'
 
+targets:
+  qrc:
+    main: src/cli.cr
+
 license: MIT
