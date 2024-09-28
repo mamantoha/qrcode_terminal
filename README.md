@@ -1,6 +1,8 @@
 # QRCode Terminal
 
 [![Crystal CI](https://github.com/mamantoha/qrcode_terminal/actions/workflows/crystal.yml/badge.svg)](https://github.com/mamantoha/qrcode_terminal/actions/workflows/crystal.yml)
+[![GitHub release](https://img.shields.io/github/release/mamantoha/qrcode_terminal.svg)](https://github.com/mamantoha/qrcode_terminal/releases)
+[![License](https://img.shields.io/github/license/mamantoha/qrcode_terminal.svg)](https://github.com/mamantoha/qrcode_terminal/blob/master/LICENSE)
 
 QRCodes, in the terminal.
 
