@@ -1,0 +1,6 @@
+version: 2.0
+shards:
+  qr-code:
+    git: https://github.com/spider-gazelle/qr-code.git
+    version: 1.0.3
+
