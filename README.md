@@ -1,6 +1,8 @@
 # QRCode Terminal
 
-QRCodes, in the terminal
+[![Crystal CI](https://github.com/mamantoha/qrcode_terminal/actions/workflows/crystal.yml/badge.svg)](https://github.com/mamantoha/qrcode_terminal/actions/workflows/crystal.yml)
+
+QRCodes, in the terminal.
 
 ## Installation
 
@@ -18,9 +20,32 @@ QRCodes, in the terminal
 
 ```crystal
 require "qrcode_terminal"
+
+puts QRCodeTerminal.generate("https://github.com/mamantoha/qrcode_terminal")
 ```
 
-TODO: Write usage instructions here
+```
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █       ▀█▀█▄▀ ▄ ▄   ▄█ ▄▄▄▄▄ █
+█ █   █ █▀▄█ ▄▄▄▀▀██ ▄  ▀██ ███ █   █ █
+█ █▄▄▄█ █  ▀▄ ▄█ ▄█▀█▀▄▄█▀▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ ▀ █▄█ ▀▄▀ ▀ █ █ █▄█▄▄▄▄▄▄▄█
+███▀ ▀█▄█▀▀█ ██ ███▄█ █▄██▄▄▄ ▀▀▄▄▄█  █
+██▀ ▀█ ▄▄█▄ █▀▀ ▀ ▄  █▄█ ▀▀█▀ █▄▄ ██ ▄█
+█▀██▄ ▄▄▄▀▀█▀▀▀ ▄▀ ▄▀██▄ ▄ █▄ ▄ ▀█▀█ ▀█
+██ ▄ █▄▄▀ ▀▀ █ ▀ ▀▄██▄▀▄▄▄  ▀█▀▀███▄▀▄█
+█ ▄▀▄▀ ▄  ▄▀▀█ █▀█ ▀ ▄  ▄█▀▀█▀▄  ▀  ▄ █
+█▄▀█▄ █▄█ █▄▄█▄▄ ▀  ▄██ ▀ █ ██▄▀███  ▄█
+██▀▄▀▀ ▄▄ ▀█▄   ████  █▄  ▄ ▄▄▀ ▄▄ █▀▀█
+█▄▀  █▄▄▄▀██▀▄▄ ▄▀█▀ █ █▄█▀▀██ ▄▄ ▄█  █
+█▄▄ ▀▀▄▄▀▀▄▀▄ █▀█▀█▀▀█   ▄▄█▄▄▄  ██▀ ▀█
+█▄▀██ ▄▄███  █ ▀▀█▄▀▄▀▄▀    █▄▄ ▄ ▄▄█▄█
+█▄▄███▄▄▄▀▀▄▀▄██ █▄█ █ █  █▀▀ ▄▄▄ ▄█▀ █
+█ ▄▄▄▄▄ ███▀█ ▀ █    ▀█████▀▄ █▄█ █ ▄▄█
+█ █   █ █▀▄▄ ▀▄▄▀▄█ ▄▀▀▄▄  ▄▀▄ ▄▄ ▄█ ▀█
+█ █▄▄▄█ ██ ▄▀█ ▀█▀██▄▄▀ ██▀ ▀ ▄█▀▄▄██▄█
+█▄▄▄▄▄▄▄█████▄███▄██▄▄█▄█▄▄█▄▄▄█▄███▄▄█
+```
 
 ## Contributing
 
