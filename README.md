@@ -49,6 +49,18 @@ puts QRCodeTerminal.generate("https://github.com/mamantoha/qrcode_terminal")
 █▄▄▄▄▄▄▄█████▄███▄██▄▄█▄█▄▄█▄▄▄█▄███▄▄█
 ```
 
+## `qrc`
+
+To create a QR code in ASCII art directly from the terminal, you can use a tool called `qrc`.
+
+![qrc](qrc.png)
+
+### Binaries
+
+The project offers precompiled binary packages for Linux, macOS, and Windows.
+
+You can obtain the standalone binary for `qrc` from the [releases](https://github.com/mamantoha/qrcode_terminal/releases) page, available for download.
+
 ## Contributing
 
 1. Fork it (<https://github.com/mamantoha/qrcode_terminal/fork>)
